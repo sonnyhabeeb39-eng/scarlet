@@ -17313,10 +17313,10 @@ pcall(function()
     if discordTab then
         local discordBox = discordTab:AddRightGroupbox('community')
         discordBox:AddButton({ Text = 'Copy Discord Invite', Func = function()
-            setclipboard("https://discord.gg/StRNCd8mWs")
+            setclipboard("https://discord.gg/Yx6zY77RCS")
             Library:Notify({ Title = "Discord", Description = "Invite copied!", Time = 4 })
         end })
-        discordBox:AddLabel("https://discord.gg/StRNCd8mWs")
+        discordBox:AddLabel("https://discord.gg/Yx6zY77RCS")
     end
 end)
 
